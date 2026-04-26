@@ -16,7 +16,7 @@ A simple Customer Relationship Management (CRM) web application built using HTML
 - localStorage
 
 ## 🌐 Live Demo
-https://manasakullegowda-17.github.io/mini-sales-crm/
+ https://manasakullegowda-17.github.io/mini-sales-CRM/
 
 ## 📂 Project Structure
 - index.html (Home)
