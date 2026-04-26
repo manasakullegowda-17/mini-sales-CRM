@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini CRM - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="customer_list.html">Customer List</a>
+    <a href="add_customer.html">Add Customer</a>
+    <a href="sales_overview.html">Sales Overview</a>
+</nav>
+
+<div class="hero">
+  <h1>Welcome to Mini Sales CRM</h1>
+  <p>Manage your customers and track sales stages efficiently.</p>
+
+  <div class="actions">
+    <a href="add_customer.html" class="btn primary">➕ Add Customer</a>
+    <a href="customer_list.html" class="btn">📋 View Customers</a>
+    <a href="sales_overview.html" class="btn">📊 View Analytics</a>
+  </div>
+</div>
+
+<h2>Dashboard Overview</h2>
+
+<div class="card-container">
+
+  <div class="card blue">
+    <h3>Total Customers</h3>
+    <p id="totalCustomers">0</p>
+  </div>
+
+  <div class="card green">
+    <h3>New Leads</h3>
+    <p id="newCount">0</p>
+  </div>
+
+  <div class="card orange">
+    <h3>In Progress</h3>
+    <p id="inProgressCount">0</p>
+  </div>
+
+  <div class="card red">
+    <h3>Closed Deals</h3>
+    <p id="closedCount">0</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customer List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="customer_list.html">Customer List</a>
+    <a href="add_customer.html">Add Customer</a>
+    <a href="sales_overview.html">Sales Overview</a>
+</nav>
+
+<h2>Customer List</h2>
+
+<input type="text" id="search" placeholder="Search by name">
+
+<select id="filterStage">
+  <option value="All">All</option>
+  <option value="New">New</option>
+  <option value="In Progress">In Progress</option>
+  <option value="Closed">Closed</option>
+</select>
+
+<table id="customerTable">
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Stage</th>
+    <th>Actions</th>
+  </tr>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
